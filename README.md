@@ -1,6 +1,6 @@
 # INTRODUCTION <a name="introduction"></a>
 
-Bonjour à toi, jeune développeur ! Aujourd'hui, tu vas découvrir comment faire un site web classique. La finalité sera de pouvoir mettre votre site en public grâce à un hébergeur. Nous allons donc voir comment avec github, vous pouvez héberger votre site gratuitement (et bien plus).
+Bonjour à toi, jeune développeur ! Aujourd'hui, tu vas découvrir comment faire un petit site Internet en manipulant les langages HTML, CSS et JavaScript !
 
 # TABLE DES MATIÈRES <a name="table-des-matières"></a>
 
@@ -13,46 +13,12 @@ Bonjour à toi, jeune développeur ! Aujourd'hui, tu vas découvrir comment fair
 
 # PRÉ-REQUIS <a name="pré-requis"></a>
 
-- Un compte github
-    - Si vous n'en avez pas, rendez-vous sur [github.com](github.com) et créez-en un.
-- Si vous êtes sous window
-    - Installer github desktop [ici](https://desktop.github.com/)
-- Un éditeur de texte
-    - Si vous n'en avez pas, je vous conseille [Visual Studio Code](https://code.visualstudio.com/).
-- Un navigateur web
-    - Tout le monde en a un, donc pas besoin de le télécharger.
+- Un navigateur web ouvert sur [CodePen](https://codepen.io/pen/).
+- Et c'est tout ! (pour une fois !)
 
-## 1 - Créer un nouveau dépôt
+## CodePen.io ?
 
-Un dépot est un endroit où vous pouvez stocker vos fichiers. Pour créer un nouveau dépôt, rendez-vous sur [github.com](github.com) et cliquez sur le bouton "New" en haut à droite.
-Pour pouvoir héberger votre site, vous devez créer un dépôt public. Pour cela, cochez la case "Public" et laissez le reste par défaut. Cliquez ensuite sur "Create repository".
-Il faut que vous appeliez votre dépôt "votre_nom_de_compte.github.io". Par exemple, si votre nom de compte est "toto", votre dépôt s'appellera "toto.github.io".
-
-(Vous pouvez suivre le tutoriel en anglais [ici](https://pages.github.com/))
-
-A ce stade, vous avez un dépot vide qui est gérer par github-desktop. Pour le moment, il n'y a rien dedans.
-
-## 2 - Votre premier site
-
-Une fois que vous avez setup votre dépôt, vous pouvez commencer à créer votre site. Pour cela, vous devez créer un fichier nommé "index.html" dans votre dépôt
-Voici un exemple de code HTML :
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Mon premier site</title>
-    </head>
-    <body>
-        <h1>Bonjour à tous !</h1>
-        <p>Je suis un paragraphe</p>
-    </body>
-</html>
-```
-
-Grâce à github-desktop, vous pouvez voir les changements que vous avez fait. Cliquez sur "Commit to master" et écrivez un message de commit. Cliquez ensuite sur "Commit to master" et "Push origin".
-
-Et maintenant, vous pouvez voir votre site en allant sur "votre_nom_de_compte.github.io" !
+CodePen.io est un site qui permet de développer un micro site web sans avoir à configurer quoi que ce soit. Pendant que tu écris ton code, ton site se mettra à jour en temps réel !
 
 # FONCTIONNEMENT D'UN SITE WEB <a name="fonctionnement-dun-site-web"></a>
 
@@ -105,15 +71,8 @@ Il y a beaucoup d'autres balises HTML, mais je vous laisse découvrir par vous-m
 
 ## CSS
 
-Le CSS est le langage qui permet de mettre du style à votre site. C'est grâce à lui que vous pouvez changer la couleur de votre texte, la taille de votre texte, etc. Pour imager, le CSS est la peau de votre site.
-Les fichiers css sont généralement nommés "style.css" et sont stockés dans un dossier nommé "css".
-
-pour l'inclure dans une page HTML, vous devez ajouter cette ligne dans la balise `<head>` :
-
-```html
-<link rel="stylesheet" href="css/style.css">
-```
-href contient le chemin vers le fichier css.
+Le CSS est le langage qui permet de mettre du style à votre site. C'est grâce à lui que vous pouvez changer la couleur de votre texte, la taille de votre texte, etc. Pour imager, le CSS est la peau, le "makeup" de votre site.
+Les fichiers css sont généralement nommés "style.css" et sont stockés dans un dossier nommé "css" -- dans notre cas, CodePen.io nous fait grâce d'intégrer automatiquement tout ça, donc rien à faire de ce côté là !
 
 Si vous voulez en savoir plus sur le CSS, je vous conseille de lire [ce tutoriel](https://www.w3schools.com/css/).
 Ou alors voici quelques jeu online pour apprendre le CSS :
@@ -162,22 +121,11 @@ Le JavaScript est le langage qui permet de rendre votre site dynamique. C'est gr
 Les fichiers JavaScript sont généralement nommés "script.js" et sont stockés dans un dossier nommé "js".
 Le javascript est un langage très puissant, il vas vous permettre de faire intéragir votre site avec l'utilisateur, de faire des formulaires, de faire des animations, etc.
 
-Pour inclure du JavaScript dans une page HTML, vous devez ajouter cette ligne dans la balise `<head>` :
-
-```html
-<script src="js/script.js"></script>
-```
-src contient le chemin vers le fichier JavaScript.
-
 Si vous voulez en savoir plus sur le JavaScript, je vous conseille de lire [ce tutoriel](https://www.w3schools.com/js/).
 
 # CRÉER UN SITE WEB <a name="créer-un-site-web"></a>
 
-Maintenant que vous savez comment fonctionne un site web, vous pouvez commencer à créer le vôtre. Trouvez un thème qui vous plait, une idée de site, etc. et lancez-vous !
-
-Voici quelques sites pour vous aider à créer votre site :
-- [Codepen](https://codepen.io/)
-- [CodeSandbox](https://codesandbox.io/)
+Maintenant que vous savez comment fonctionne un site web, vous pouvez commencer à créer le vôtre. Trouvez un thème ou un sujet qui vous plait, une idée de site, etc. et lancez-vous !
 
 Si vous voulez trouvez des idées de site, vous pouvez aller sur [Dribbble](https://dribbble.com/).
 
