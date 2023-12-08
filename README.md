@@ -18,7 +18,7 @@ Bonjour à toi, jeune développeur ! Aujourd'hui, tu vas découvrir comment fair
 
 ## CodePen.io ?
 
-CodePen.io est un site qui permet de développer un micro site web sans avoir à configurer quoi que ce soit. Pendant que tu écris ton code, ton site se mettra à jour en temps réel !
+CodePen.io est un site qui permet de développer un micro site web sans avoir à configurer quoi que ce soit. Pendant que vous écrivez ton code, votre site se mettra à jour en temps réel !
 
 # FONCTIONNEMENT D'UN SITE WEB <a name="fonctionnement-dun-site-web"></a>
 
